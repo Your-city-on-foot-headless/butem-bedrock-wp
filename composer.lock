@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8ea3ab224e33353907277aef7a963697",
+    "content-hash": "0373f65bb0a5c1eafda5afeab401dbf3",
     "packages": [
         {
             "name": "composer/installers",
@@ -1191,6 +1191,24 @@
             "homepage": "https://wordpress.org/plugins/custom-post-type-ui/"
         },
         {
+            "name": "wpackagist-plugin/easy-accordion-free",
+            "version": "2.3.4",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/easy-accordion-free/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/easy-accordion-free.zip?timestamp=1707995331"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/easy-accordion-free/"
+        },
+        {
             "name": "wpackagist-plugin/faustwp",
             "version": "1.2.1",
             "source": {
@@ -1207,6 +1225,24 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/faustwp/"
+        },
+        {
+            "name": "wpackagist-plugin/pods",
+            "version": "3.1.4",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/pods/",
+                "reference": "tags/3.1.4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/pods.3.1.4.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/pods/"
         },
         {
             "name": "wpackagist-plugin/updraftplus",
