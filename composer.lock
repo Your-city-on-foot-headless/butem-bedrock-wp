@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8ea3ab224e33353907277aef7a963697",
+    "content-hash": "c5555333e0e327908002c2eb696e56c2",
     "packages": [
         {
             "name": "composer/installers",
@@ -1120,15 +1120,15 @@
         },
         {
             "name": "wpackagist-plugin/advanced-custom-fields",
-            "version": "6.2.6.1",
+            "version": "6.2.7",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/advanced-custom-fields/",
-                "reference": "tags/6.2.6.1"
+                "reference": "tags/6.2.7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/advanced-custom-fields.6.2.6.1.zip"
+                "url": "https://downloads.wordpress.org/plugin/advanced-custom-fields.6.2.7.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -1191,8 +1191,26 @@
             "homepage": "https://wordpress.org/plugins/custom-post-type-ui/"
         },
         {
+            "name": "wpackagist-plugin/easy-accordion-free",
+            "version": "2.3.6",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/easy-accordion-free/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/easy-accordion-free.zip?timestamp=1710304788"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/easy-accordion-free/"
+        },
+        {
             "name": "wpackagist-plugin/faustwp",
-            "version": "1.2.1",
+            "version": "1.2.2",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/faustwp/",
@@ -1200,7 +1218,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/faustwp.zip?timestamp=1706642742"
+                "url": "https://downloads.wordpress.org/plugin/faustwp.zip?timestamp=1709138494"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -1209,16 +1227,34 @@
             "homepage": "https://wordpress.org/plugins/faustwp/"
         },
         {
-            "name": "wpackagist-plugin/updraftplus",
-            "version": "1.23.16",
+            "name": "wpackagist-plugin/pods",
+            "version": "3.1.4",
             "source": {
                 "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/updraftplus/",
-                "reference": "tags/1.23.16"
+                "url": "https://plugins.svn.wordpress.org/pods/",
+                "reference": "tags/3.1.4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/updraftplus.1.23.16.zip"
+                "url": "https://downloads.wordpress.org/plugin/pods.3.1.4.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/pods/"
+        },
+        {
+            "name": "wpackagist-plugin/updraftplus",
+            "version": "1.24.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/updraftplus/",
+                "reference": "tags/1.24.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/updraftplus.1.24.1.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -1228,15 +1264,15 @@
         },
         {
             "name": "wpackagist-plugin/wp-mail-smtp",
-            "version": "3.11.1",
+            "version": "4.0.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wp-mail-smtp/",
-                "reference": "tags/3.11.1"
+                "reference": "tags/4.0.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-mail-smtp.3.11.1.zip"
+                "url": "https://downloads.wordpress.org/plugin/wp-mail-smtp.4.0.1.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -1246,15 +1282,15 @@
         },
         {
             "name": "wpackagist-plugin/wp-optimize",
-            "version": "3.3.0",
+            "version": "3.3.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wp-optimize/",
-                "reference": "tags/3.3.0"
+                "reference": "tags/3.3.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-optimize.3.3.0.zip"
+                "url": "https://downloads.wordpress.org/plugin/wp-optimize.3.3.1.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -2107,5 +2143,5 @@
         "php": ">=7.4"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.3.0"
+    "plugin-api-version": "2.6.0"
 }

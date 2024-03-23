@@ -7,7 +7,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
-"X-Generator: GlotPress/4.0.0-beta.2\n"
+"X-Generator: GlotPress/4.0.0-rc.1\n"
 "Language: pl\n"
 "Project-Id-Version: WordPress - 6.4.x - Development - Administration\n"
 
@@ -9945,6 +9945,7 @@ msgid "Plugins extend and expand the functionality of WordPress. You may install
 msgstr "Wtyczki rozszerzają możliwości WordPressa. Można je zainstalować korzystając z <a href=\"%s\">repozytorium wtyczek WordPressa</a> lub dodając spakowaną do pliku .zip używając przycisku na górze tej strony."
 
 #. Plugin URI of the plugin
+#: hello.php
 msgid "http://wordpress.org/plugins/hello-dolly/"
 msgstr "https://pl.wordpress.org/plugins/hello-dolly/"
 
@@ -10808,14 +10809,17 @@ msgid "Add New Comment"
 msgstr "Dodaj komentarz"
 
 #. Author URI of the plugin
+#: hello.php
 msgid "http://ma.tt/"
 msgstr "https://ma.tt/"
 
 #. Description of the plugin
+#: hello.php
 msgid "This is not just a plugin, it symbolizes the hope and enthusiasm of an entire generation summed up in two words sung most famously by Louis Armstrong: Hello, Dolly. When activated you will randomly see a lyric from <cite>Hello, Dolly</cite> in the upper right of your admin screen on every page."
 msgstr "To nie jest zwykła wtyczka – symbolizuje ona nadzieję i entuzjazm całego pokolenia, podsumowane w dwóch słowach piosenki, której najpopularniejszym wykonawcą jest Louis Armstrong: „Hello, Dolly”. Po włączeniu tej wtyczki, w prawym górnym rogu każdego ekranu kokpitu będzie wyświetlany losowy wers <cite>Hello, Dolly</cite>."
 
 #. Plugin Name of the plugin
+#: hello.php
 msgid "Hello Dolly"
 msgstr "Hello Dolly"
 
